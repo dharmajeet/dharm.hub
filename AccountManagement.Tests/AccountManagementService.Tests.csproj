@@ -102,9 +102,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AccountManagement\AccountManagement.csproj">
+    <ProjectReference Include="..\AccountManagement\AccountManagementService.csproj">
       <Project>{36966D7D-2A77-4E5E-8A39-2163C36F0A11}</Project>
-      <Name>AccountManagement</Name>
+      <Name>AccountManagementService</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
